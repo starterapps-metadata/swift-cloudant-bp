@@ -1,0 +1,36 @@
+{
+	"name": "Swift Cloudant Web Starter",
+	"services": [{
+		"name": "cloudantNoSQLDB",
+		"choices": ["Shared"]
+	}],
+	"defaultMemory": 512,
+	"description": "Use the Cloudant NoSQL DB service with the 'Swift' runtime.",
+	"categories": ["swift"],
+	"type": "web",
+	"version": "1.0",
+	"smallIcon": "swift_cloudant_24.png",
+	"icon": "swift_cloudant.png",
+	"largeIcon": "swift_cloudant_64.png",
+	"featuredIcon": "<to do>",
+	"marqueeIcon": "<to do>",
+	"headingIcon": "<to do>",
+	"instructions": "app/swift_instructions.md",
+	"source": {
+		"scmType": "git",
+		"url": "<to do>",
+		"appPath": ""
+	},
+	"docURL": "/#starters/swift-cloudant/index.html#swift-cloudant",
+	"system_tags": ["ibm_created"],
+	"runtime_template_id": "swiftHelloWorld",
+	"runtime_id": "<to do>",
+	"extra": {
+		"i18n": {
+			"es": {
+				"name": "swift Cloudant Web Starter",
+				"description": "Utilice el servicio Cloudant NoSQL DB con el entorno de ejecución 'Swift'."
+			}
+		}
+	}
+}
