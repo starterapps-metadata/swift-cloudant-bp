@@ -2,7 +2,7 @@
 	"name": "Swift Cloudant Web Starter",
 	"services": [{
 		"name": "cloudantNoSQLDB",
-		"choices": ["Shared"]
+		"choices": ["Lite"]
 	}],
 	"defaultMemory": 512,
 	"description": "Use the Cloudant NoSQL DB service with the 'Swift' runtime.",
